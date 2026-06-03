@@ -15,7 +15,7 @@ load_dotenv()
 logger = setup_logger(__name__)
 
 # Configurable defaults
-DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+DEFAULT_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
 class GeminiAPIError(Exception):
     """Custom exception wrapper for Gemini API failures to trigger retries."""
@@ -171,7 +171,7 @@ Output only the raw JSON object.
     try:
         raw_response = call_gemini_with_retry(client, model_name, prompt)
     except GeminiAPIError as primary_err:
-        fallback_model = "gemini-2.0-flash"
+        fallback_model = "gemini-2.5-flash"
         logger.warning(f"Primary model {model_name} failed with service/rate issues. Attempting fallback to stability model '{fallback_model}'...")
         try:
             raw_response = call_gemini_with_retry(client, fallback_model, prompt)

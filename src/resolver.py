@@ -115,7 +115,7 @@ def resolve_name_via_llm(name: str) -> Optional[str]:
         try:
             response_text = call_gemini_with_retry(client, model_name, prompt)
         except Exception as primary_err:
-            fallback_model = "gemini-2.0-flash"
+            fallback_model = "gemini-2.5-flash"
             logger.warning(f"Primary model {model_name} failed during domain resolution. Attempting fallback model '{fallback_model}'...")
             response_text = call_gemini_with_retry(client, fallback_model, prompt)
         
