@@ -1,0 +1,140 @@
+{
+  "data": {
+    "overview": {
+      "university_name": "Salisbury University",
+      "location": {
+        "city": "Salisbury",
+        "state": "Maryland",
+        "country": "United States",
+        "postal_code": "21801"
+      },
+      "contact": {
+        "phone": "410-543-6161",
+        "email": "admissions@salisbury.edu"
+      }
+    },
+    "tuition_breakdown": [
+      {
+        "fee_type": "Undergraduate Tuition & Mandatory Fees (Maryland Residents)",
+        "cost": 11466,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Undergraduate Housing (On-Campus, Double Occupancy)",
+        "cost": 8150,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Undergraduate Food (On-Campus, All Access Meal Plan)",
+        "cost": 6368,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Undergraduate Tuition & Mandatory Fees (Out-of-State Residents)",
+        "cost": 23590,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Graduate Tuition & Mandatory Fees (Maryland Residents, Annual, 9 Credits/Semester)",
+        "cost": 10476,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Graduate Tuition & Mandatory Fees (Non-Resident, Annual, 9 Credits/Semester)",
+        "cost": 17388,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Graduate Tuition & Mandatory Fees (Non-Resident Regional Hagerstown, Annual, 9 Credits/Semester)",
+        "cost": 12204,
+        "currency": "USD"
+      }
+    ],
+    "admission_deadlines": [
+      {
+        "deadline_type": "Early Decision",
+        "deadline_date": "2025-11-15",
+        "notes": "First Year"
+      },
+      {
+        "deadline_type": "Transfer Admission",
+        "deadline_date": "2025-12-01",
+        "notes": "Priority Date for Spring"
+      },
+      {
+        "deadline_type": "Regular Decision",
+        "deadline_date": "2026-01-15",
+        "notes": "Priority Date (First Year)"
+      },
+      {
+        "deadline_type": "Transfer Admission",
+        "deadline_date": "2026-03-01",
+        "notes": "Priority Date for Fall"
+      }
+    ],
+    "page_metadata": [
+      {
+        "url": "https://www.salisbury.edu/admissions/apply-now.aspx",
+        "page_title": "Apply Now | Salisbury University",
+        "scraped_at": "2026-06-03 09:55:34",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.salisbury.edu/admissions/",
+        "page_title": "Salisbury University Admissions | Salisbury University",
+        "scraped_at": "2026-06-03 09:55:32",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.salisbury.edu/admissions/visit-campus.aspx",
+        "page_title": "Welcome to the SU Experience | Salisbury University",
+        "scraped_at": "2026-06-03 09:55:34",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.salisbury.edu/admissions/financial-aid/cost-of-attendance/",
+        "page_title": "Salisbury University Cost of Attendance | Salisbury University",
+        "scraped_at": "2026-06-03 09:55:37",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.salisbury.edu/admissions/financial-aid/",
+        "page_title": "Office of Financial Aid & Scholarships at Salisbury University",
+        "scraped_at": "2026-06-03 09:55:36",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.salisbury.edu/",
+        "page_title": "Salisbury University, Universities in Maryland",
+        "scraped_at": "2026-06-03 09:55:18",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.salisbury.edu",
+        "page_title": "Salisbury University, Universities in Maryland",
+        "scraped_at": "2026-06-03 09:55:16",
+        "status_code": "200"
+      }
+    ]
+  },
+  "confidence_scores": {
+    "university_name": 1.0,
+    "location": 1.0,
+    "contact": 1.0,
+    "tuition_breakdown": 0.95,
+    "admission_deadlines": 0.95
+  },
+  "source_attributions": {
+    "university_name": "https://www.salisbury.edu/",
+    "location": "https://www.salisbury.edu/admissions/visit-campus.aspx",
+    "contact": "https://www.salisbury.edu/admissions/visit-campus.aspx",
+    "tuition_breakdown": "https://www.salisbury.edu/admissions/financial-aid/cost-of-attendance/",
+    "admission_deadlines": "https://www.salisbury.edu/admissions/"
+  },
+  "quality_report": {
+    "missing_fields": [],
+    "invalid_formats": [],
+    "duplicates_found": [],
+    "is_valid": true
+  }
+}

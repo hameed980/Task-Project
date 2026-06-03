@@ -1,0 +1,142 @@
+{
+  "data": {
+    "overview": {
+      "university_name": "Bucknell University",
+      "location": {
+        "city": "Lewisburg",
+        "state": "PA",
+        "country": "United States",
+        "postal_code": "17837"
+      },
+      "contact": {
+        "phone": "570-577-3000",
+        "email": "admissions@bucknell.edu"
+      }
+    },
+    "tuition_breakdown": [
+      {
+        "fee_type": "Tuition",
+        "cost": 72600,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Housing",
+        "cost": 11400,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Food (Meal Plan)",
+        "cost": 6980,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Student Activity Fee",
+        "cost": 900,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Application Fee",
+        "cost": 50,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Enrollment Deposit",
+        "cost": 500,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Orientation Fee",
+        "cost": 500,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "International Orientation Fee",
+        "cost": 750,
+        "currency": "USD"
+      }
+    ],
+    "admission_deadlines": [
+      {
+        "deadline_type": "Early Decision",
+        "deadline_date": "2026-01-10",
+        "notes": "Application, scholarship application, CSS Profile and FAFSA due"
+      },
+      {
+        "deadline_type": "Regular Decision",
+        "deadline_date": "2026-01-10",
+        "notes": "Application, scholarship application, CSS Profile and FAFSA due"
+      },
+      {
+        "deadline_type": "Transfer Admission",
+        "deadline_date": null,
+        "notes": "Fall Semester Application Deadline"
+      }
+    ],
+    "page_metadata": [
+      {
+        "url": "https://www.bucknell.edu/admissions-aid/apply-bucknell",
+        "page_title": "Apply to Bucknell",
+        "scraped_at": "2026-06-03 09:37:21",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.bucknell.edu/admissions-aid/admissions-dates-deadlines",
+        "page_title": "Admissions Dates & Deadlines",
+        "scraped_at": "2026-06-03 09:37:23",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.bucknell.edu/admissions-aid",
+        "page_title": "Admissions & Financial Aid Information — Bucknell University",
+        "scraped_at": "2026-06-03 09:37:19",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.bucknell.edu/admissions-aid/tuition-fees-financial-aid",
+        "page_title": "Tuition, Fees & Financial Aid",
+        "scraped_at": "2026-06-03 09:37:22",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.bucknell.edu/office-financial-aid",
+        "page_title": "Office of Financial Aid | Bucknell",
+        "scraped_at": "2026-06-03 09:37:28",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.bucknell.edu/families-prospective-students",
+        "page_title": "Families of Prospective Students | Bucknell",
+        "scraped_at": "2026-06-03 09:37:55",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.bucknell.edu",
+        "page_title": "Bucknell University | Liberal Arts, Engineering, & Management Colleges",
+        "scraped_at": "2026-06-03 09:37:09",
+        "status_code": "200"
+      }
+    ]
+  },
+  "confidence_scores": {
+    "university_name": 1.0,
+    "location": 0.95,
+    "contact": 0.95,
+    "tuition_breakdown": 0.95,
+    "admission_deadlines": 0.9
+  },
+  "source_attributions": {
+    "university_name": "https://www.bucknell.edu",
+    "location": "https://www.bucknell.edu/admissions-aid/apply-bucknell",
+    "contact": "https://www.bucknell.edu/admissions-aid/apply-bucknell",
+    "tuition_breakdown": "https://www.bucknell.edu/admissions-aid/tuition-fees-financial-aid",
+    "admission_deadlines": "https://www.bucknell.edu/admissions-aid/admissions-dates-deadlines"
+  },
+  "quality_report": {
+    "missing_fields": [],
+    "invalid_formats": [],
+    "duplicates_found": [
+      "Duplicate deadline item: Transfer Admission (None)"
+    ],
+    "is_valid": true
+  }
+}

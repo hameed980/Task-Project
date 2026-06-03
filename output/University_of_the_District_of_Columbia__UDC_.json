@@ -1,0 +1,173 @@
+{
+  "data": {
+    "overview": {
+      "university_name": "University of the District of Columbia",
+      "location": {
+        "city": "Washington",
+        "state": "DC",
+        "country": "United States",
+        "postal_code": "20008"
+      },
+      "contact": {
+        "phone": "202-274-5261",
+        "email": "applications@udc.edu"
+      }
+    },
+    "tuition_breakdown": [
+      {
+        "fee_type": "Graduate Resident Tuition (9-month estimate)",
+        "cost": 2808,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Graduate Resident Fees (9-month estimate)",
+        "cost": 370,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Graduate Resident Room & Board (9-month estimate)",
+        "cost": 17224,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Graduate Resident Books, Course Materials, Supplies, Equipment (9-month estimate)",
+        "cost": 1149,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Graduate Resident Transportation (9-month estimate)",
+        "cost": 1935,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Graduate Resident Health Insurance (9-month estimate)",
+        "cost": 1593,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Graduate Resident Miscellaneous/Personal (9-month estimate)",
+        "cost": 2310,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Undergraduate Bachelor's Resident Tuition (9-month estimate)",
+        "cost": 7776,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Undergraduate Bachelor's Loan Fee (9-month estimate)",
+        "cost": 92,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Undergraduate Associate's Resident Tuition (9-month estimate)",
+        "cost": 9234,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Undergraduate Associate's Resident Housing (9-month estimate)",
+        "cost": 528,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Graduate Application Fee",
+        "cost": 50,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "F1 Visa Application Fee",
+        "cost": 50,
+        "currency": "USD"
+      },
+      {
+        "fee_type": "Undergraduate Application Fee",
+        "cost": 0,
+        "currency": "USD"
+      }
+    ],
+    "admission_deadlines": [
+      {
+        "deadline_type": "Regular Decision",
+        "deadline_date": null,
+        "notes": "Undergraduate US Students Fall Term: August 1"
+      }
+    ],
+    "page_metadata": [
+      {
+        "url": "https://www.udc.edu/admissions/admission-deadlines",
+        "page_title": "Admission Deadlines | Admissions | University of the District of Columbia",
+        "scraped_at": "2026-06-03 09:42:18",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.udc.edu/admissions/faq",
+        "page_title": "Admission Frequently Asked Questions | Admissions | University of the District of Columbia",
+        "scraped_at": "2026-06-03 09:41:56",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.udc.edu/admissions/application-requirements",
+        "page_title": "Application Requirements | Admissions | University of the District of Columbia",
+        "scraped_at": "2026-06-03 09:42:20",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.udc.edu/admissions/tuition-fees",
+        "page_title": "Tuition & Fees | Admissions | University of the District of Columbia",
+        "scraped_at": "2026-06-03 09:42:17",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.udc.edu/financial-aid/cost-of-attendance",
+        "page_title": "Cost of Attendance | Admissions | University of the District of Columbia",
+        "scraped_at": "2026-06-03 09:42:29",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.udc.edu/financial-aid/index",
+        "page_title": "Office of Financial Aid | the University of the District of Columbia | University of the District of Columbia",
+        "scraped_at": "2026-06-03 09:42:28",
+        "status_code": "200"
+      },
+      {
+        "url": "https://www.udc.edu",
+        "page_title": "University of the District of Columbia, Washington, DC - HBCU, Land-Grant University | University of the District of Columbia",
+        "scraped_at": "2026-06-03 09:41:40",
+        "status_code": "200"
+      }
+    ]
+  },
+  "confidence_scores": {
+    "university_name": 1.0,
+    "location": 0.95,
+    "contact": 0.9,
+    "tuition_breakdown": 0.9,
+    "admission_deadlines": 0.95
+  },
+  "source_attributions": {
+    "university_name": "https://www.udc.edu",
+    "location": "https://www.udc.edu/admissions/admission-deadlines",
+    "contact": "https://www.udc.edu/admissions/application-requirements",
+    "tuition_breakdown": "https://www.udc.edu/financial-aid/cost-of-attendance",
+    "admission_deadlines": "https://www.udc.edu/admissions/admission-deadlines"
+  },
+  "quality_report": {
+    "missing_fields": [],
+    "invalid_formats": [],
+    "duplicates_found": [
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)",
+      "Duplicate deadline item: Regular Decision (None)"
+    ],
+    "is_valid": true
+  }
+}
